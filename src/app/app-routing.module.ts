@@ -1,12 +1,12 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { GaritaBeneficioComponent } from './garita-beneficio/garita-beneficio.component';
-import { LoginBeneficioComponent } from './login-beneficio/login-beneficio.component';
+import { LoginAgricultorComponent } from './login-agricultor/login-agricultor.component';
+import { MenuAgricultorComponent } from './menu-agricultor/menu-agricultor.component';
 
 const routes: Routes = [
   {path:'',redirectTo:'login',pathMatch:'full'},
-  {path:'garita',component:GaritaBeneficioComponent},
-  {path:'login',component:LoginBeneficioComponent},
+  {path:'menu',component:MenuAgricultorComponent},
+  {path:'login',component:LoginAgricultorComponent},
 ];
 
 @NgModule({

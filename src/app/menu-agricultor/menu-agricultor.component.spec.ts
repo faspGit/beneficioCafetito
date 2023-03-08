@@ -1,20 +1,20 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { GaritaBeneficioComponent } from './garita-beneficio.component';
+import { MenuAgricultorComponent } from './menu-agricultor.component';
 
-describe('GaritaBeneficioComponent', () => {
-  let component: GaritaBeneficioComponent;
-  let fixture: ComponentFixture<GaritaBeneficioComponent>;
+describe('MenuAgricultorComponent', () => {
+  let component: MenuAgricultorComponent;
+  let fixture: ComponentFixture<MenuAgricultorComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ GaritaBeneficioComponent ]
+      declarations: [ MenuAgricultorComponent ]
     })
     .compileComponents();
   });
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(GaritaBeneficioComponent);
+    fixture = TestBed.createComponent(MenuAgricultorComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
