@@ -1,0 +1,13 @@
+lastado de casos de uso
+1. login agricultor
+ 1.1 formulario envio de cargamento
+ 
+
+2. login beneficio
+ 2.1 creacion/modificion de formulario de inscripción (agricultor, vehículo, piloto)
+ 2.2 bandeja de recepción de carga (validar información)
+ 2.3 validaciones y cambios de estados a la cuenta del agricultor
+
+3. login peso cabal//no se realiza
+ 3.1 bandeja validación de peso (validacion y envio)
+
